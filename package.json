@@ -1,0 +1,24 @@
+{
+  "name": "@brunoluiz/google-no-api-tools",
+  "url" : "https://github.com/brunoluiz/google-no-api-tools",
+  "version": "1.0.0",
+  "description": "🤠 Life is too short to set-up an account on GCP",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:tsc": "tsc",
+    "build": "npm run build:tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.13",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
