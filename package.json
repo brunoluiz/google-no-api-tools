@@ -1,12 +1,13 @@
 {
   "name": "@brunoluiz/google-no-api-tools",
-  "url" : "https://github.com/brunoluiz/google-no-api-tools",
+  "url": "https://github.com/brunoluiz/google-no-api-tools",
   "version": "1.0.0",
   "description": "🤠 Life is too short to set-up an account on GCP",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build:tsc": "tsc",
+    "watch": "tsc --watch",
     "build": "npm run build:tsc"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "axios": "^0.25.0",
-    "cheerio": "^1.0.0-rc.10"
+    "cheerio": "^1.0.0-rc.10",
+    "csv-parse": "^5.0.4"
   }
 }

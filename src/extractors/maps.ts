@@ -12,7 +12,13 @@ export type Place = {
   photo: string;
 };
 
-export const placeInfoFromURL = async (url: string): Promise<Place> => {
+/**
+ * Extract Place information from Google Maps URL
+ *
+ * @param url - Google Maps Share URL or similar (example: https://www.google.com/maps/place/?q=place_id:ChIJtczIQ68cdkgR0m45hoeIN8Y)
+ * @returns Shallow Place details
+ */
+export const placeFromMapsURL = async (url: string): Promise<Place> => {
   const res = await axios.get(url, {
     headers: {
       "User-Agent":
