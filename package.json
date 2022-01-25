@@ -1,7 +1,7 @@
 {
   "name": "@brunoluiz/google-no-api-tools",
   "url": "https://github.com/brunoluiz/google-no-api-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🤠 Life is too short to set-up an account on GCP",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
