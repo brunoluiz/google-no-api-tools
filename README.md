@@ -2,6 +2,14 @@
 
 🙃 Life is too short to set-up an account on GCP
 
+## Install
+
+```sh
+npm i @brunoluiz/google-no-api-tools
+# or
+yarn add @brunoluiz/google-no-api-tools
+```
+
 ## Use-cases
 
 ### [`placeFromMapsURL`](./src/extractors/maps.ts)
