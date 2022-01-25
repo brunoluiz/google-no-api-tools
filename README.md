@@ -14,6 +14,9 @@ Gets data from a Google Maps URL preview, such as the picture below, using the H
 const { placeFromMapsURL } = require("@brunoluiz/google-no-api-tools");
 
 (async () => {
+  // other compatible URLs:
+  // https://goo.gl/maps/ozMj6VujKX2KYcaS9
+  // https://g.page/oriolebar-cocktails-live-music?share
   const res = await placeFromMapsURL("https://www.google.com/maps/place/?q=place_id:ChIJtczIQ68cdkgR0m45hoeIN8Y");
   console.log(res);
 })();
